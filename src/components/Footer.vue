@@ -9,6 +9,14 @@
         @click="jumpLink(packageJson.github)"
       />
     </div>
+    <!-- 新增的固定固定官网链接 -->
+      <n-text
+        class="website"
+        :depth="3"
+        @click="jumpLink('https://www.9418666.xyz')"
+      >
+        访问官网
+      </n-text>
     <n-text
       v-if="icp"
       :depth="3"
